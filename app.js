@@ -17,7 +17,7 @@ bot.on('message' , message => {
 });
 
 // Listner Event: Run on start
-bot.on('ready', () => {
+client.on('ready', () => {
     console.log('Bot Launched...')
     // Status
     bot.user.setStatus('Online')
