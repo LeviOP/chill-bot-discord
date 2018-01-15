@@ -8,7 +8,7 @@ bot.on('message' , message => {
     // Variables
     var sender = message.author; // The person who send the message
     var msg = message.content;
-    var prefix = '+' // THe text before commands
+    var prefix = '+' // The text before commands
 
     // Commands
     if (msg === prefix + 'help') {
@@ -22,7 +22,7 @@ bot.on('ready', () => {
     // Status
     bot.user.setStatus('dnd')
     //"Playing"
-    bot.user.setGame('+help | Bot by Levi')
+    bot.setPlayingGame('+help | Bot by Levi')
 });
 // Login
 bot.login('NDAxODI4MDg5NjAxOTgyNDY0.DTv8Xw.m_lQBrcvMVsj-XvHHljCh8gdJuo')
