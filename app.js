@@ -18,11 +18,11 @@ bot.on('message' , message => {
 
 // Listner Event: Run on start
 bot.on('ready', () => {
-    console.log('Bot Launched...')
+    console.log('Bot Launched...');
     // Status
-    bot.user.setStatus('Online')
+    bot.user.setStatus('Online');
     //"Playing"
-    bot.user.setGame('+help | Bot by Levi')
+    bot.user.setGame('+help | Bot by Levi');
 });
 // Login
 bot.login('NDAxODI4MDg5NjAxOTgyNDY0.DTv8Xw.m_lQBrcvMVsj-XvHHljCh8gdJuo')
