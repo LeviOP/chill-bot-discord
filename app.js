@@ -20,7 +20,7 @@ bot.on('message' , message => {
 bot.on('ready', () => {
     console.log('Bot Launched...')
     // Status
-    bot.user.setStatus('dnd')
+    bot.user.setStatus('Online')
     //"Playing"
     bot.setGame('+help | Bot by Levi')
 });
