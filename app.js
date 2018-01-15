@@ -22,7 +22,7 @@ bot.on('ready', () => {
     // Status
     bot.user.setStatus('Online')
     //"Playing"
-    client.setGame('+help | Bot by Levi')
+    bot.setGame('+help | Bot by Levi')
 });
 // Login
 bot.login('NDAxODI4MDg5NjAxOTgyNDY0.DTv8Xw.m_lQBrcvMVsj-XvHHljCh8gdJuo')
