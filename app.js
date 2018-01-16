@@ -15,7 +15,6 @@ bot.on('message' , message => {
       message.channel.send('This is a work in progress bot made by [HM] Levi. This is so far the only command. If you would like him to add a command @Mention him.')
     }
     if (msg === prefix + 'test') {
-      let me = args[0]
       message.channel.send('${me} was just tested!')
     }
 });
