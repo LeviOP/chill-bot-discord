@@ -28,7 +28,7 @@ bot.on('ready', () => {
     // Status
     bot.user.setStatus('Online');
     //"Playing"
-    bot.user.setGame('+help | Bot by Levi')
+    bot.user.setPresence({ game: { name: '+help', type: 0 } });
 });
 // Login
 bot.login('NDAxODI4MDg5NjAxOTgyNDY0.DTv8Xw.m_lQBrcvMVsj-XvHHljCh8gdJuo')
