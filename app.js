@@ -15,7 +15,7 @@ bot.on('message' , message => {
       message.channel.send('This is a work in progress bot made by [HM] Levi. This is so far the only command. If you would like him to add a command @Mention him.')
     }
     if (msg === prefix + 'rules') {
-      message.channel.send(':warning:️No harassing other people \n :warning:️No pornography or any kind of offensive matireal')
+      message.channel.send(':warning:️No harassing other people\n:warning:️No pornography or any kind of offensive matireal\n:warning:️Do not ask for Staff ranks\n:warning:️Do not spam in chats\n:warning:️If help required ask a staff member to move you to the staff channel\n:warning:️Ranks shall be earned not by begging for them\n:warning:️You can swear but not too much\n:warning:️ Bragging Is bannable\n:warning: DO NOT DISRESPECT OWNER/STAFF\n:warning: Be Nice to Everyone :heart:')
     }
 });
 
