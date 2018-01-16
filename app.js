@@ -14,13 +14,17 @@ bot.on('message' , message => {
     if (msg === prefix + 'help') {
       message.channel.send('This is a work in progress bot made by [HM] Levi. This is so far the only command. If you would like him to add a command @Mention him.')
     }
+    if (msg === prefix + 'test') {
+      let me = args[0]
+      message.channel.send('${me} was just tested!')
+    }
 });
 
 // Listner Event: Run on start
 bot.on('ready', () => {
     console.log('Bot Launched...');
     // Status
-    bot.user.setStatus('Online', '+help');
+    bot.user.setStatus('Online');
     //"Playing"
     bot.user.setGame("+help | Bot by Levi")
 });
