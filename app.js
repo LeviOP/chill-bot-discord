@@ -13,7 +13,7 @@ bot.on('message' , message => {
     // Commands
     if (msg === prefix + 'help') {
         var embed = new Discord.RichEmbed()
-        .setColor(00008B)
+        .setColor(0x00008B)
         .setTitle('Command List')
         .addField('+ping', 'Tells you your ping')
         .addfeild('+rules', 'tells you the rules of the server')
