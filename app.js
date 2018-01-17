@@ -16,7 +16,7 @@ bot.on('message' , message => {
         .setColor(0x00008B)
         .setTitle('Command List')
         .addField('+ping', 'Tells you your ping')
-        .addfeild('+rules', 'tells you the rules of the server')
+        .addfield('+rules', 'tells you the rules of the server')
         message.channel.send({embed})
     }
     if (msg === prefix + 'rules') {
