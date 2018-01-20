@@ -25,6 +25,9 @@ bot.on('message' , message => {
     if (msg === prefix + 'ping') {
         message.channel.send('Pong! Your ping is ' + `${Date.now() - message.createdTimestamp}` + 'ms')
     }
+    if (msg === prefix + 'guccigang') {
+        message.channel.send('http://rdbl.co/2DycKda')
+    }
 });
 
 // Listner Event: Run on start
