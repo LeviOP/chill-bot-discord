@@ -20,7 +20,7 @@ bot.on('message' , message => {
         message.channel.send({embed})
     }
     if (msg === prefix + 'rules') {
-      message.channel.send('**Rules\n\n-Dont Disrespect Eachother\n\n-Respect other staff member\n\n-Being active results in rewards!\n\n-If you need help ask a staff member\n\n-Dont ask for ranks\n\n-Enjoy your stay**')
+      message.channel.send('')
     }
     if (msg === prefix + 'ping') {
         message.channel.send('Pong! Your ping is ' + `${Date.now() - message.createdTimestamp}` + 'ms')
@@ -37,4 +37,4 @@ bot.on('ready', () => {
     bot.user.setPresence({ game: { name: '+help', type: 0 } });
 });
 // Login
-bot.login('NDE1NTU2NTE3OTMzMjE5ODU0.DW3ovg._gV0TY9_RbpcdfslxXd8zkny0XI')
+bot.login('KpRGblzGfCh4K6CT1A3qvX1y2LH279km')
