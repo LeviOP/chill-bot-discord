@@ -1,1 +1,1 @@
-# gucci-bot
+# Discord Jash Bot
