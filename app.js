@@ -36,5 +36,15 @@ bot.on('ready', () => {
     //"Playing"
     bot.user.setPresence({ game: { name: '+help', type: 0 } });
 });
+
+// Listner Event: User joining server
+bot.on('guildMemberAdd', member => {
+    client.channels.get(428001739971493888).send(member.username + ' has joined the server!');
+
+    var role = member.guild.roles.find('name', 'Jashers!')
+
+    member.addRole(role)
+})
+
 // Login
 bot.login('NTE3ODQ5MTIxMzg2NzkwOTEy.DuIQZA.NzMEYi_tPJlYfMGcjNOeUdFxQxI')
