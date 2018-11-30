@@ -37,4 +37,4 @@ bot.on('ready', () => {
     bot.user.setPresence({ game: { name: '+help', type: 0 } });
 });
 // Login
-bot.login('KpRGblzGfCh4K6CT1A3qvX1y2LH279km')
+bot.login('NTE3ODQ5MTIxMzg2NzkwOTEy.DuIQZA.NzMEYi_tPJlYfMGcjNOeUdFxQxI')
